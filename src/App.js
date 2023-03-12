@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import DottedSquare from "./components/Dottedsquare";
+import Footer from "./components/Footer";
+import Menus from "./components/Menus";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    <div className="center-wrapper" style={{position: "relative"}}>
+      <h1 style={{position: "absolute", top: 180, fontSize:"50px", color:"rgb(248, 0, 103)", textShadow: "1px 2px 3px black"}}>Framer Motion - Project (1)</h1>
+      <Menus />
+      
     </div>
+      
+      
+   
   );
 }
 
